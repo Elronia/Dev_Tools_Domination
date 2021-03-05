@@ -26,10 +26,16 @@ console.error('Oy! :(');
 console.info('JavaScript was developed under the name Mocha');
 
 // Testing
+const p = document.querySelector('p');
+
+console.assert(p.classList.contains('ouch'), 'That is wrong!');
 
 // clearing
+console.clear();
 
 // Viewing DOM Elements
+console.log(p);
+console.dir(p);
 
 // Grouping together
 
