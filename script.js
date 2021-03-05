@@ -17,10 +17,13 @@ console.log('Hello I am a %s string', '👍')
 console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue')
 
 // warning!
+console.warn('Oh NOO');
 
 // Error :|
+console.error('Oy! :(');
 
 // Info
+console.info('JavaScript was developed under the name Mocha');
 
 // Testing
 
